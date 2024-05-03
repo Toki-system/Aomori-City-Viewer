@@ -5,8 +5,7 @@
     "description": "Electron minimum template",
     "scripts": {
         "monaca:preview": "npm run dev",
-        "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081",
-        "deploy": "gh-pages -d www"
+        "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
     },
     "engines": {
         "node": ">=18.16"
@@ -15,7 +14,6 @@
         "cordova-plugin-device": "2.1.0",
         "cordova-plugin-geolocation": "4.1.0",
         "cordova-plugin-splashscreen": "6.0.2",
-        "gh-pages": "^6.1.1",
         "monaca-plugin-monaca-core": "3.3.1",
         "node-machine-id": "1.1.12"
     },
